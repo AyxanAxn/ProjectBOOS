@@ -13,15 +13,10 @@ namespace ProjectBOOS
         public string Education { get; set; }
         public string ScoolNO { get; set; }
         public string  Companies { get; set; }
-
-        internal void Add(string education, int experience, int universitetyScore, string skills, bool sertificate, string gitHub, string linkedin, string language)
-        {
-            throw new NotImplementedException();
-        }
-
         public int Experience { get; set; }
         public int UniversitetyScore { get; set; }
         public string Skills { get; set; }
+        public string Profecion { get; set; }
         public bool Certificate { get; set; } = false;
         public string GitHub { get; set; }
         public string Linkedin { get; set; }
@@ -38,7 +33,7 @@ namespace ProjectBOOS
 
         public override string ToString()
         {
-            return $"\nId : {ID}\nScool NO : {ScoolNO}\nCompanies : {Companies}\nEducation : {Education}\nUniversity score : {UniversitetyScore}\nExperience : {Experience}\nSkills : {Skills}\nSertificate : {Certificate}\nGithub : {GitHub}\nLinkedin : {Linkedin}\nStart time : {StartTime}\nEnd time : {EndTime}";
+            return $"\nId : {ID}\nScool NO : {ScoolNO}\nCompanies : {Companies}\nLanguage - {Language}\nEducation : {Education}\nUniversity score : {UniversitetyScore}\nProfession - {Profecion}\nExperience : {Experience}\nSkills : {Skills}\nSertificate : {Certificate}\nGithub : {GitHub}\nLinkedin : {Linkedin}\nStart time : {StartTime.ToShortTimeString()}\nEnd time : {EndTime.ToShortTimeString()}";
         }
 
 

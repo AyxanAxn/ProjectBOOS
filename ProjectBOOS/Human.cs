@@ -8,15 +8,16 @@ namespace ProjectBOOS
 {
     abstract class Human
     {
-
         public int Id { get; set; }
-        public static int StaticId { get; set; } = 1;
+        public static int StaticId { get; set; } = 0;
         public string Name { get; set; } = "";
         public string Surname { get; set; } = "";
         public int Age { get; set; } = 0;
         public string PhoneNum { get; set; } = "000-000-000";
         public string Username { get; set; } = "";
         public string Password { get; set; } = "";
+        public string City { get; set; }
+        public string Email{ get; set; }
 
         public Human()
         {
@@ -25,7 +26,7 @@ namespace ProjectBOOS
         public override string ToString()
         {
             return $"\nId - {Id}\nName - {Name}\nSurname - {Surname}\nAge - {Age}" +
-                $"\nPhone num - {PhoneNum}\nUsername - {Username}\nPassword - {Password}";
+                $"\nPhone num - {PhoneNum}\nUsername - {Username}\nCity - {City}\nEmail - {Email}";
         }
     }
 }
