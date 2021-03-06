@@ -180,90 +180,90 @@ namespace ProjectBOOS
         static void Main(string[] args)
         {
 
-            List<Employee> employees = FileHelper.ReadFromEmployee("Employee.json");
-            List<Employer> employers = FileHelper.ReadFromEmployer("Employer.json");
+            List<Employee> employees =FileHelper.ReadFromEmployee("Employee.json");
+           List<Employer> employers = FileHelper.ReadFromEmployer("Employer.json");
             #region Employees
 
 
-            // Employee employee = new Employee
-            // {
-            //     Age = 19,
-            //     Name = "Ayxan",
-            //     Surname = "Axundov",
-            //     PhoneNum = "070-123-45-67",
-            //     Username = "Ayxan",
-            //     Password = "Ayxan1",
-            //     City = Cities.Baku,
-            //     Email = "axundovayxan@gmail.com"
-            // };
-            // Employee employee1 = new Employee
-            // {
-            //     Age = 19,
-            //     Name = "Zaur",
-            //     Surname = "Caferov",
-            //     PhoneNum = "050-123-45-67",
-            //     Username = "Zaur",
-            //     Password = "Zaur1",
-            //     City = Cities.Aqhstafa,
-            //     Email = "zaurceferov@gmail.com"
-            // };
-            // Employee employee2 = new Employee
-            // {
-            //     Age = 21,
-            //     Name = "Elvin",
-            //     Surname = "Jamalzade",
-            //     PhoneNum = "055-123-45-67",
-            //     Username = "Elvin",
-            //     Password = "Elvin1",
-            //     City = Cities.Balaken,
-            //     Email = "elvincamalzade@gmail.com"
-            // };
-            // Employee employee3 = new Employee
-            // {
-            //     Age = 20,
-            //     Name = "Elgun",
-            //     Surname = "Abbasguliyev",
-            //     PhoneNum = "051-123-45-67",
-            //     Username = "Elgun",
-            //     Password = "Elgun1",
-            //     City = Cities.Ganja,
-            //     Email = "elgunabbasguliyev@gmail.com"
-            // };
-            //
-            // Employee employee4 = new Employee
-            // {
-            //     Age = 20,
-            //     Name = "Resul",
-            //     Surname = "Osmanli",
-            //     PhoneNum = "051-321-45-67",
-            //     Username = "Resul",
-            //     Password = "Resul1",
-            //     City = Cities.Susha,
-            //     Email = "resulosmanli@gmail.com"
-            // };
-            //
-            // Employee employee5 = new Employee
-            // {
-            //     Age = 20,
-            //     Name = "Amin",
-            //     Surname = "Aliyev",
-            //     PhoneNum = "051-321-45-67",
-            //     Username = "Amin",
-            //     Password = "Amin1",
-            //     City = Cities.Susha,
-            //     Email = "aminaliyev@gmail.com"
-            // };
-            // Employee employee6 = new Employee
-            // {
-            //     Age = 20,
-            //     Name = "Metin",
-            //     Surname = "Rzayev",
-            //     PhoneNum = "077-876-54-32",
-            //     Username = "Metin",
-            //     Password = "Metin1",
-            //     City = Cities.Xankendi,
-            //     Email = "metinrzayev@gmail.com"
-            // };
+            //Employee employee = new Employee
+            //{
+            //    Age = 19,
+            //    Name = "Ayxan",
+            //    Surname = "Axundov",
+            //    PhoneNum = "070-123-45-67",
+            //    Username = "Ayxan",
+            //    Password = "Ayxan1",
+            //    City = Cities.Baku,
+            //    Email = "axundovayxan@gmail.com"
+            //};
+            //Employee employee1 = new Employee
+            //{
+            //    Age = 19,
+            //    Name = "Zaur",
+            //    Surname = "Caferov",
+            //    PhoneNum = "050-123-45-67",
+            //    Username = "Zaur",
+            //    Password = "Zaur1",
+            //    City = Cities.Aqhstafa,
+            //    Email = "zaurceferov@gmail.com"
+            //};
+            //Employee employee2 = new Employee
+            //{
+            //    Age = 21,
+            //    Name = "Elvin",
+            //    Surname = "Jamalzade",
+            //    PhoneNum = "055-123-45-67",
+            //    Username = "Elvin",
+            //    Password = "Elvin1",
+            //    City = Cities.Balaken,
+            //    Email = "elvincamalzade@gmail.com"
+            //};
+            //Employee employee3 = new Employee
+            //{
+            //    Age = 20,
+            //    Name = "Elgun",
+            //    Surname = "Abbasguliyev",
+            //    PhoneNum = "051-123-45-67",
+            //    Username = "Elgun",
+            //    Password = "Elgun1",
+            //    City = Cities.Ganja,
+            //    Email = "elgunabbasguliyev@gmail.com"
+            //};
+
+            //Employee employee4 = new Employee
+            //{
+            //    Age = 20,
+            //    Name = "Resul",
+            //    Surname = "Osmanli",
+            //    PhoneNum = "051-321-45-67",
+            //    Username = "Resul",
+            //    Password = "Resul1",
+            //    City = Cities.Susha,
+            //    Email = "resulosmanli@gmail.com"
+            //};
+
+            //Employee employee5 = new Employee
+            //{
+            //    Age = 20,
+            //    Name = "Amin",
+            //    Surname = "Aliyev",
+            //    PhoneNum = "051-321-45-67",
+            //    Username = "Amin",
+            //    Password = "Amin1",
+            //    City = Cities.Susha,
+            //    Email = "aminaliyev@gmail.com"
+            //};
+            //Employee employee6 = new Employee
+            //{
+            //    Age = 20,
+            //    Name = "Metin",
+            //    Surname = "Rzayev",
+            //    PhoneNum = "077-876-54-32",
+            //    Username = "Metin",
+            //    Password = "Metin1",
+            //    City = Cities.Xankendi,
+            //    Email = "metinrzayev@gmail.com"
+            //};
 
 
             //employees.Add(employee);
@@ -273,7 +273,7 @@ namespace ProjectBOOS
             //employees.Add(employee4);
             //employees.Add(employee5);
             //employees.Add(employee6);
-            //
+
             //employee.AddCV(Categories.Programmer, Education.Bakalavr, "1", 2, 500, "C, C++, C# HTML, CSS", "SOCAR, BP", new DateTime(2021, 03, 03, 09, 00, 00), new DateTime(2021, 03, 03, 18, 00, 00), Language.English, true, "axundov", "axun");
             //employee1.AddCV(Categories.Design, Education.Bakalavr, "1", 1, 150, "Photoshop", "Design.az", new DateTime(2021, 03, 03, 09, 00, 00), new DateTime(2021, 03, 03, 18, 00, 00), Language.Turkish, true, "Zaur", "zaur");
             //employee2.AddCV(Categories.IT, Education.Master, "1", 4, 600, "Network, Windows server", "Mincrosoft", new DateTime(2021, 03, 03, 09, 00, 00), new DateTime(2021, 03, 03, 18, 00, 00), Language.English, true, "Elvin", "Elvin123");
@@ -281,64 +281,60 @@ namespace ProjectBOOS
             //employee4.AddCV(Categories.Support, Education.Bakalavr, "1", 1, 590, "Axrana", "Embawood", new DateTime(2021, 03, 03, 09, 00, 00), new DateTime(2021, 03, 03, 18, 00, 00), Language.English, true, "ResulAxran", "Daveriya123");
             //employee5.AddCV(Categories.SalesManager, Education.Bakalavr, "1", 3, 560, "Satis islerine baxiram. ingilis dilinnen aram yaxshi deyil amma oz uzerimde isleyirem :-)", "MZ group", new DateTime(2021, 03, 03, 09, 00, 00), new DateTime(2021, 03, 03, 18, 00, 00), Language.Turkish, true, "Amin", "Ameno23");
             //employee6.AddCV(Categories.Manager, Education.Bakalavr, "1", 2, 500, "Men meneccerem", "Summer hotel", new DateTime(2021, 03, 03, 09, 00, 00), new DateTime(2021, 03, 03, 18, 00, 00), Language.English, true, "Metin", "Metinoo");
-            foreach (var item in employees)
-            {
-                Console.WriteLine(item);
-                item.ShowCV();
-            }
+            //foreach (var item in employees)
+            //{
+            //    Console.WriteLine(item);
+            //    item.ShowCV();
+            //}
+          //FileHelper.WriteToFIleEmployee("Employee.json", employees);
             #endregion Employees
             #region Employers
-            
-            //fh.WriteToFIleEmployee("Employee.json", employees);
 
-            // Employer employer = new Employer
-            // {
-            //     Age = 28,
-            //     City = Cities.Baku,
-            //     Email = "Mehrac@gmail.com",
-            //     Name = "Mehrac",
-            //     Surname = "Letifli",
-            //     PhoneNum = "012-543-21-76",
-            //     Username = "Mehrac",
-            //     Password = "Mehrac1"
-            //
-            // };
-            // Employer employer1 = new Employer
-            // {
-            //     Age = 30,
-            //     City = Cities.Baku,
-            //     Email = "Jhon@gmail.com",
-            //     Name = "Jhon",
-            //     Surname = "Jhonlu",
-            //     PhoneNum = "077-111-11-11",
-            //     Username = "John",
-            //     Password = "John1"
-            //
-            // };
-            // Employer employer2 = new Employer
-            // {
-            //     Age = 35,
-            //     City = Cities.Tovuz,
-            //     Email = "Aleksey@gmail.com",
-            //     Name = "Aleksey",
-            //     Surname = "Alekseyli",
-            //     PhoneNum = "077-222-22-22",
-            //     Username = "Alek",
-            //     Password = "Alek1"
-            //
-            // };
-            // employers.Add(employer);
-            // employers.Add(employer1);
-            // employers.Add(employer2);
-            // employer.AddVacancy(Cities.Baku, Categories.Programmer, 2000, new DateTime(2021, 03, 03, 09, 00, 00), new DateTime(2021, 03, 03, 18, 00, 00), "C ve c++ -i yaxsi bilmeli ve stepin menzunu olmaildir.", Categories.Programmer, employer.Email);
-            // employer1.AddVacancy(Cities.Aqhstafa, Categories.IT, 3000, new DateTime(2021, 03, 03, 09, 00, 00), new DateTime(2021, 03, 03, 18, 00, 00), "Windows server minimum CCNA ve CCIE sertifikatlari olmali + olaraq boyuk kollektivle  islemeyi bacarmalidir!", Categories.IT, employer1.Email);
-            // employer2.AddVacancy(Cities.Tovuz, Categories.Teacher, 3500, new DateTime(2021, 03, 03, 09, 00, 00), new DateTime(2021, 03, 03, 18, 00, 00), "Ders kecmesi yaxsi olmali tecrubeli adam teleb olunur", Categories.IT, employer2.Email);
-            // fh.WriteToFIleEmployer("Employer.json", employers);
-            foreach (var item in employers)
-            {
-                Console.WriteLine(item);
-                item.ShowVacancies();
-            }
+
+
+            //Employer employer = new Employer
+            //{
+            //    Age = 28,
+            //    City = Cities.Baku,
+            //    Email = "Mehrac@gmail.com",
+            //    Name = "Mehrac",
+            //    Surname = "Letifli",
+            //    PhoneNum = "012-543-21-76",
+            //    Username = "Mehrac",
+            //    Password = "Mehrac1"
+
+            //};
+            //Employer employer1 = new Employer
+            //{
+            //    Age = 30,
+            //    City = Cities.Baku,
+            //    Email = "Jhon@gmail.com",
+            //    Name = "Jhon",
+            //    Surname = "Jhonlu",
+            //    PhoneNum = "077-111-11-11",
+            //    Username = "John",
+            //    Password = "John1"
+
+            //};
+            //Employer employer2 = new Employer
+            //{
+            //    Age = 35,
+            //    City = Cities.Tovuz,
+            //    Email = "Aleksey@gmail.com",
+            //    Name = "Aleksey",
+            //    Surname = "Alekseyli",
+            //    PhoneNum = "077-222-22-22",
+            //    Username = "Alek",
+            //    Password = "Alek1"
+
+            //};
+            //employers.Add(employer);
+            //employers.Add(employer1);
+            //employers.Add(employer2);
+            //employer.AddVacancy(Cities.Baku, Categories.Programmer, 2000, new DateTime(2021, 03, 03, 09, 00, 00), new DateTime(2021, 03, 03, 18, 00, 00), "C ve c++ -i yaxsi bilmeli ve stepin menzunu olmaildir.", Categories.Programmer, employer.Email);
+            //employer1.AddVacancy(Cities.Aqhstafa, Categories.IT, 3000, new DateTime(2021, 03, 03, 09, 00, 00), new DateTime(2021, 03, 03, 18, 00, 00), "Windows server minimum CCNA ve CCIE sertifikatlari olmali + olaraq boyuk kollektivle  islemeyi bacarmalidir!", Categories.IT, employer1.Email);
+            //employer2.AddVacancy(Cities.Tovuz, Categories.Teacher, 3500, new DateTime(2021, 03, 03, 09, 00, 00), new DateTime(2021, 03, 03, 18, 00, 00), "Ders kecmesi yaxsi olmali tecrubeli adam teleb olunur", Categories.IT, employer2.Email);
+            //FileHelper.WriteToFIleEmployer("Employer.json", employers);
             #endregion Employers
 
 
@@ -400,6 +396,7 @@ namespace ProjectBOOS
                                     try
                                     {
                                         Console.WriteLine("Profession : ");
+                                        PrintCategories();
                                         profession = Console.ReadLine();
                                         if (profession == "1") category = Categories.IT;
                                         else if (profession == "2") category = Categories.Marketing;
@@ -426,6 +423,7 @@ namespace ProjectBOOS
                                         Console.WriteLine("Company : ");
                                         companies = Console.ReadLine();
                                         Console.WriteLine("Education : ");
+                                        printForEducation();
                                         companies = Console.ReadLine();
 
                                         printForEducation();
@@ -434,10 +432,10 @@ namespace ProjectBOOS
                                         else if (companies == "3") education = Education.Doktorantura;
                                         else education = Education.Nothing;
 
-                                        Console.WriteLine("Start time(like this : ) mm dd yy: ");
-                                        date1 = Convert.ToDateTime(Console.ReadLine());
-                                        Console.WriteLine("End time mm dd yy: : ");
-                                        date2 = Convert.ToDateTime(Console.ReadLine());
+                                        
+                                        date1 = DateTime.Now;
+
+                                        date2 = DateTime.Now.AddMonths(1);
                                         Console.WriteLine("Language : ");
                                         printLanguage();
                                         language = Console.ReadLine();
@@ -605,7 +603,7 @@ namespace ProjectBOOS
                                             else language = Language.IdontKnowNothing;
                                             FindEmployee(employees, userName).UpdateCVForLanguage(enteringID, language);
                                             FindEmployee(employees, userName).ShowCV();
-                                            FileHelper.WriteToFIleEmployee("Employee.json",employees);
+                                            FileHelper.WriteToFIleEmployee("Employee.json", employees);
                                         }
                                         else if (upgrating == "10")
                                         {
@@ -674,7 +672,7 @@ namespace ProjectBOOS
                                     } while (a != true);
                                     b = Convert.ToInt32(forID);
                                     FindEmployee(employees, userName).DeleteCV(b);
-                                   // fh.WriteToFIleEmployee("Employee.json", employees);
+                                    // fh.WriteToFIleEmployee("Employee.json", employees);
                                     FindEmployee(employees, userName).ShowCV();
                                     FileHelper.WriteToFIleEmployee("Employee.json", employees);
                                     break;
@@ -810,18 +808,18 @@ namespace ProjectBOOS
                                             }
                                         }
 
-                                        //int max;
-                                        //int min;
-                                        //Console.WriteLine("Min salary : ");
-                                        //min = int.Parse(Console.ReadLine());
-                                        //Console.WriteLine("Max salary : ");
-                                        //max = int.Parse(Console.ReadLine());
+                                        int max;
+                                        int min;
+                                        Console.WriteLine("Min salary : ");
+                                        min = int.Parse(Console.ReadLine());
+                                        Console.WriteLine("Max salary : ");
+                                        max = int.Parse(Console.ReadLine());
 
 
-                                        //foreach (var item in employers)
-                                        //{
-                                        //    item.SearcyBySalary(min, max);
-                                        //}
+                                        foreach (var item in employers)
+                                        {
+                                            item.SearcyBySalary(min, max);
+                                        }
 
 
                                         //Console.WriteLine("Min experience");
@@ -831,7 +829,7 @@ namespace ProjectBOOS
                                         //{
                                         //    item.SearchExperience(minExperience);
                                         //}
-                                        ////   FindEmployer(employers, userName).SearchByCategory(category);
+                                        //   FindEmployer(employers, userName).SearchByCategory(category);
                                         foreach (var item in employers)
                                         {
                                             item.showFilter();
@@ -849,15 +847,11 @@ namespace ProjectBOOS
 
                                 }
                         }
-
-
-
                         if (forWritingSomething == "20")
                         {
                             break;
                         }
                     }
-
                 }
                 else if (signIn(employees, employers, userName, passWord) == "Employers")
                 {
@@ -933,6 +927,7 @@ namespace ProjectBOOS
                                         Console.WriteLine("Email : ");
                                         Email = Console.ReadLine();
                                         FindEmployer(employers, userName).AddVacancy(city, category, salary, date3, date4, Requirement, informationAbout, Email);
+                                        FileHelper.WriteToFIleEmployer("Employer.json", employers);
                                     }
                                     catch (Exception ex)
                                     {
@@ -948,6 +943,7 @@ namespace ProjectBOOS
                                     enteringID = int.Parse(Console.ReadLine());
                                     FindEmployer(employers, userName).DeleteVacancy(enteringID);
                                     FindEmployer(employers, userName).ShowVacancies();
+                                    FileHelper.WriteToFIleEmployer("Employer.json", employers);
                                     break;
                                 }
                             case "5":
@@ -984,6 +980,7 @@ namespace ProjectBOOS
                                                     }
                                                     FindEmployer(employers, userName).UpdatePlace(enteringID, city);
                                                     FindEmployer(employers, userName).ShowVacancies();
+                                                    FileHelper.WriteToFIleEmployer("Employer.json", employers);
                                                     break;
                                                 }
 
@@ -997,6 +994,7 @@ namespace ProjectBOOS
                                                     experience = int.Parse(Console.ReadLine());
                                                     FindEmployer(employers, userName).UpdateSalary(enteringID, experience);
                                                     FindEmployer(employers, userName).ShowVacancies();
+                                                    FileHelper.WriteToFIleEmployer("Employer.json", employers);
                                                     break;
                                                 }
 
@@ -1011,6 +1009,7 @@ namespace ProjectBOOS
 
                                                     FindEmployer(employers, userName).UpdateRequirement(enteringID, forUpdate);
                                                     FindEmployer(employers, userName).ShowVacancies();
+                                                    FileHelper.WriteToFIleEmployer("Employer.json", employers);
                                                     break;
                                                 }
 
@@ -1023,7 +1022,9 @@ namespace ProjectBOOS
                                                     Console.WriteLine("What do you want to write : ");
                                                     PrintCities();
                                                     forUpdate = Console.ReadLine();
+
                                                     FindEmployer(employers, userName).UpdateInformationAboutJob(enteringID, forUpdate);
+                                                    FileHelper.WriteToFIleEmployer("Employer.json", employers);
                                                     break;
 
                                                 }
@@ -1037,6 +1038,7 @@ namespace ProjectBOOS
                                                     forUpdate = Console.ReadLine();
                                                     FindEmployer(employers, userName).UpdateGmail(enteringID, forUpdate);
                                                     FindEmployer(employers, userName).ShowVacancies();
+                                                    FileHelper.WriteToFIleEmployer("Employer.json", employers);
                                                     break;
                                                 }
 
@@ -1050,6 +1052,7 @@ namespace ProjectBOOS
                                                     experience = int.Parse(Console.ReadLine());
                                                     FindEmployer(employers, userName).UpdateExperience(enteringID, experience);
                                                     FindEmployer(employers, userName).ShowVacancies();
+                                                    FileHelper.WriteToFIleEmployer("Employer.json", employers);
                                                     break;
                                                 }
                                             case "7":
@@ -1062,6 +1065,7 @@ namespace ProjectBOOS
                                                     date1 = DateTime.Parse(Console.ReadLine());
                                                     FindEmployer(employers, userName).UpdateStartTime(enteringID, date1);
                                                     FindEmployer(employers, userName).ShowVacancies();
+                                                    FileHelper.WriteToFIleEmployer("Employer.json", employers);
 
 
                                                     break;
@@ -1077,6 +1081,7 @@ namespace ProjectBOOS
                                                     date1 = DateTime.Parse(Console.ReadLine());
                                                     FindEmployer(employers, userName).UpdateEndTime(enteringID, date1);
                                                     FindEmployer(employers, userName).ShowVacancies();
+                                                    FileHelper.WriteToFIleEmployer("Employer.json", employers);
                                                     break;
                                                 }
 
@@ -1101,6 +1106,7 @@ namespace ProjectBOOS
                                         var emplo = FindFavoritForEmployeee(employees, enterId);
                                         FindEmployer(employers, userName).AcceptCV(FindFavoritForEmployeee(employees, enterId), enterId);
                                         Console.WriteLine("Done!");
+                                        
                                         Notifications(emplo, "Acc");
                                     }
 

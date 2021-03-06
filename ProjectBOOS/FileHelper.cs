@@ -14,24 +14,32 @@ namespace ProjectBOOS
         public static void WriteToFIleEmployee(string NameOfFile, List<Employee> employees)
         {
             var write = new JsonSerializer();
-            using (var sw = new StreamWriter(NameOfFile))
+            using (var fs=new FileStream(NameOfFile,FileMode.OpenOrCreate ))
             {
-                using (var jw = new JsonTextWriter(sw))
+                using (var sw = new StreamWriter(fs))
                 {
-                    jw.Formatting = Newtonsoft.Json.Formatting.Indented;
-                    write.Serialize(jw, employees);
+                    using (var jw = new JsonTextWriter(sw))
+                    {
+
+                        jw.Formatting = Newtonsoft.Json.Formatting.Indented;
+                        write.Serialize(jw, employees);
+                    }
                 }
             }
         }
         public static void WriteToFIleEmployer(string NameOfFile, List<Employer> employers)
         {
+
             var write = new JsonSerializer();
-            using (var sw = new StreamWriter(NameOfFile))
+            using (var fs = new FileStream(NameOfFile, FileMode.OpenOrCreate))
             {
-                using (var jw = new JsonTextWriter(sw))
+                using (var sw = new StreamWriter(fs))
                 {
-                    jw.Formatting = Newtonsoft.Json.Formatting.Indented;
-                    write.Serialize(jw, employers);
+                    using (var jw = new JsonTextWriter(sw))
+                    {
+                        jw.Formatting = Newtonsoft.Json.Formatting.Indented;
+                        write.Serialize(jw, employers);
+                    }
                 }
             }
         }

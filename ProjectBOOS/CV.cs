@@ -33,7 +33,7 @@ namespace ProjectBOOS
 
         public override string ToString()
         {
-            return $"\nId : {ID}\nScool NO : {ScoolNO}\nCompanies : {Companies}\nLanguage - {Language}\nEducation : {Education}\nUniversity score : {UniversitetyScore}\nProfession - {Profecion}\nExperience : {Experience}\nSkills : {Skills}\nSertificate : {Certificate}\nGithub : {GitHub}\nLinkedin : {Linkedin}\nStart time : {StartTime.ToShortTimeString()}\nEnd time : {EndTime.ToShortTimeString()}";
+            return $"\nId : {ID}\nScool NO : {ScoolNO}\nCompanies : {Companies}\nLanguage - {Language}\nEducation : {Education}\nUniversity score : {UniversitetyScore}\nProfession - {Profecion}\nExperience : {Experience}\nSkills : {Skills}\nSertificate : {Certificate}\nGithub : {GitHub}\nLinkedin : {Linkedin}\nStart time : {StartTime.ToShortDateString()}\nEnd time : {EndTime.ToShortDateString()}";
         }
 
 

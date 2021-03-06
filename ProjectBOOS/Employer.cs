@@ -100,12 +100,10 @@ namespace ProjectBOOS
 
         #endregion UpdateFunk
         #region Filtering
-        public void SearchByCity(string City)
+        public void SearchByCity(string City)//baki
         {
             if (City != Cities.AllAzerbaijan)
             {
-
-
                 foreach (var item in vacancies)
                 {
                     if (item.Place == City)
@@ -122,13 +120,14 @@ namespace ProjectBOOS
                 }
             }
         }
+        //baki it  
+        //it
 
-
+        //IT
         public void SearchByCategory(string Category)
         {
             if (Category != Categories.IdontKnow)
             {
-
                 foreach (var item in vacancies)
                 {
                     if (item.Category != Category)
@@ -137,14 +136,14 @@ namespace ProjectBOOS
                     }
                 }
             }
-           
+
         }
 
         public void SearcyBySalary(int min, int max)
         {
             foreach (var item in vacancies)
             {
-                if (min < item.Salary || max > item.Salary)
+                if (min > item.Salary && max > item.Salary)
                 {
                     Search.Remove(item);
                 }
@@ -154,7 +153,7 @@ namespace ProjectBOOS
         {
             foreach (var item in vacancies)
             {
-                if (item.Experience != Experience)
+                if (item.Experience < Experience)
                 {
                     Search.Remove(item);
                 }
